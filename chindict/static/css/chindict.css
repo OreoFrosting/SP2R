@@ -1,0 +1,126 @@
+h3{
+	color: black;
+}
+head, h1{
+	color: rgb(253, 254, 254);
+}
+body{
+	background-color: #f4eddf;
+	margin-left: 100px;
+	position:relative;
+	top:70px;
+	color:#525b5c;
+}
+.image_caption {
+	font-size: 15px;
+	font-style: italic;
+	color: black;
+}
+.video_caption{
+	font-size: 15px;
+	font-style: italic;
+	font-family: Arial;
+	color: blue;
+}
+.audio_caption{
+	font-size: 15px;
+	font-style: italic;
+	font-family: Roboto;
+	color: purple;
+}
+.test_text{
+	text-align:center;
+	position: relative;
+	color:black;
+	top: 20px;
+}
+
+.titles{
+	color:white;
+	font-family: Roboto,Arial;
+	font-size: 30px;
+
+}
+.hyperlink_color{
+	color:#000000;
+	text-decoration: none;
+	font-family:"Gotham SSm A","Gotham SSm B",sans-serif;
+	position: relative;
+	top:20px;
+	right:20px;
+}
+title{
+	top:200px;
+}
+.navi{
+	top:0px;
+	left:0px;
+	font-size: 27px;
+	text-align:center;
+	overflow: auto;
+	position: fixed;
+	background-color: #ffb300;
+	box-sizing: content-box;
+	width: 100%;
+	display: inline;
+	padding: 5px;
+	color: black;
+	word-spacing: 15px;
+	z-index: 2;
+}
+#search_box{
+	text-align: left;
+	float: right;
+	position:relative;
+	right: 0px;
+	top:0px;
+	width: 15%;
+}
+#submit_box{
+	float:right;
+	position:relative;
+	right:0px;
+}
+input{
+	align-self:right;
+	text-align: right;
+}
+.logo{
+	float:left;
+	width: 7%;	
+}
+audio{
+	z-index: 1;
+}
+h3{
+	color:#525b5c;
+}
+.aboutimages{
+	width: 50%;
+	height:50%;
+}
+.windowsimage{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	margin-left: 175px;
+}
+input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+.hyperlink_color:hover {
+  color:#800000;
+}
+ button:hover {
+ 	background:#ccc;
+ }
+ .scope_text{
+ 	top:20px;
+ 	margin-top:50px;
+ }
