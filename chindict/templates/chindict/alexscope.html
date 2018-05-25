@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<html>
+<body>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/alexscopes.css' %}">
+	<div id="scope">
+			<title class="titles"> Scope</title>
+			<h1><strong><div class="test_text">What is the goal of this website?</div></strong></h1>
+			
+			<ul class="scope_text">
+				<li><h3>The overall goal is to create a chinese website that allows the user to type in a chinese word into the search box and gives them the information for that word from that search.</h3></li>
+				<li><h3>The minimum viable product would simply be a page of all the hyperlinks to the words and the information that correlates to those words, or simply the working search box(since there is a limit to what css and html can do without javascript).</h3></li>
+				<li><h3>I will create different pages of words, each for the different Chinese characters that are in the vocab lesson that Mr. Kan provides to me. Within these pages, there will be hyperlinks to other words.</h3></li>
+			<img class="images" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Chinese_black_dragon.svg" width="400" height="300">
+			<div>
+			<a href="alexsite.html">Go Back</a>
+			</div>
+			</ul>
+	</div>
+	<div class="navi">
+	<img class="logo" src="https://upload.wikimedia.org/wikipedia/en/e/ee/HaverfordSchoolLogo.png">
+	<a class="hyperlink_color" href="alexsite.html">Home</a>
+	<a class="hyperlink_color" href="alexscope.html">Scope</a>
+	<a class="hyperlink_color" href="about.html">About</a>
+	<a class="hyperlink_color" href="tutorial.html">Tutorials</a>
+		<form action="/action_page.php">
+			<input type="text" placeholder="Search a word in chinese..." id="search_box">
+			<button type="submit" id="submit_box">Submit<i>
+			</i></button>
+		</form>
+</div>
+</body>
+</html>
