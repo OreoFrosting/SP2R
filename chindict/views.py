@@ -8,3 +8,5 @@ def alexscope(request):
 # Create your views here.
 def brycesite(request):
 	return render(request, 'chindict/brycesite.html', {})
+def nick_index(request):
+	return render(request, 'chindict/nick_index.html', {})	

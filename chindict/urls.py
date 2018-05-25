@@ -6,5 +6,5 @@ urlpatterns = [
     url(r'alexsite/$', views.alexsite, name='alexsite'),
     url(r'alexscope/$', views.alexscope, name='alexscope'),
     url(r'brycesite/$', views.brycesite, name='brycesite'),
-
+    url(r'nick_index/$', views.nick_index, name='nick_index')
 ]
