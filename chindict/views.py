@@ -6,3 +6,5 @@ def alexsite(request):
 def alexscope(request):
 	return render(request, 'chindict/alexscope.html', {})
 # Create your views here.
+def brycesite(request):
+	return render(request, 'chindict/brycesite.html', {})
