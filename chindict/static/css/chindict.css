@@ -55,7 +55,7 @@ title{
 .navi{
 	top:0px;
 	left:0px;
-	font-size: 27px;
+	font-size: 35px;
 	text-align:center;
 	overflow: auto;
 	position: fixed;
@@ -87,7 +87,7 @@ input{
 }
 .logo{
 	float:left;
-	width: 7%;	
+	width: 5%;	
 }
 audio{
 	z-index: 1;
