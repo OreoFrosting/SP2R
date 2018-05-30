@@ -1,0 +1,143 @@
+header{
+	background-color: black;
+	padding: 20px;
+}
+footer{
+	background-color: black;
+	padding: 15px;
+}
+.header .container, .footer .container{
+	width: 100%;
+}
+a{
+	color: white;
+}
+.footer .container p{
+	color: white;
+}
+header .row{
+	display: flex;
+	align-items: center;
+}
+.col-sm-8 a{
+	padding: 20px;
+	font-size: 15px;
+}
+.container .row h1{
+	margin-left: 25px;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #340454;
+}
+h2{
+	color: black;
+	font-size: 75px;
+}
+.map .container, #weapons{
+	background-color: #FFFFF3;
+}
+.map .container img{
+	width: 100%;
+}
+.home_pic_1 .container{
+	background-color: white;
+}
+
+.home_pic_1 .container img{
+	position: relative;
+	max-height: 500px;
+	max-width: 400px
+}
+.thumbnail img{
+	height: 100px;
+	width: 100px;
+}
+.thumbnail .gray{
+	background-image: radial-gradient(#d0d0d0 0%, #6d7071 100%); 
+}
+.thumbnail .green{
+	background-image: radial-gradient(#5BAD03 0%, #01700a 100%);
+}
+.thumbnail .blue{
+	background-image: radial-gradient(#3dc7ff 0%, #0059a1 100%);
+}
+.thumbnail .purple{
+	background-image: radial-gradient(#d27bf4 0%, #7907a5 100%);
+}
+.thumbnail .gold{
+	background-image: radial-gradient(#fb9625 0%, #875134 100%);
+}
+#weapons .row-text-center p{
+	font-size: 17px;
+}
+.caption p{
+	color: black;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd
+	color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+.header a:hover{
+	background-color: #ddd;
+	color: black;
+}
+.header .row a{
+	font-size: 16px;
+}
+.header .col-sm-4 a{
+	font-size: 30px;
+}
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.home_pic_1 p{
+	font-size: 25px;
+}
+.home_pic_1 .container img, p{
+	padding-top: 15px; 
+}
