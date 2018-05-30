@@ -91,11 +91,7 @@ input{
 }
 .logo{
 	float:left;
-<<<<<<< HEAD
-	width: 5%;	
-=======
-	width: 7%;	
->>>>>>> 5e8fb7efe59e5f201d0f7dee22bf5ae6dae4b1e1
+	width: 5%;		
 }
 audio{
 	z-index: 1;
