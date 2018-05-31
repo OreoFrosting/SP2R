@@ -11,4 +11,6 @@ def brycesite(request):
 def nick_index(request):
 	return render(request, 'chindict/nick_index.html', {})	
 def fortnite_home(request):
-	return render(request, 'chindict/Medhanie/fortnite_home.html', {})	
+	return render(request, 'chindict/Medhanie/fortnite_home.html', {})
+def fortnite_skins(request):
+	return render(request, 'chindict/Medhanie/fortnite_skins.html', {})	
