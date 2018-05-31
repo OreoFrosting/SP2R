@@ -8,5 +8,4 @@ urlpatterns = [
     url(r'brycesite/$', views.brycesite, name='brycesite'),
     url(r'nick_index/$', views.nick_index, name='nick_index'),
     url(r'fortnite_home/$', views.fortnite_home, name='fortnite_home')
-    url(r'fortnite_home/fortnite_skins/$', views.fortnite_skins, name='fortnite_skins')
 ]
